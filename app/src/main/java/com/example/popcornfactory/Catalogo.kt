@@ -103,7 +103,7 @@ class Catalogo : AppCompatActivity() {
                 intent.putExtra("image",pelicula.image)
                 intent.putExtra("header",pelicula.header)
                 intent.putExtra("sinopsis",pelicula.sinopsis)
-                intent.putExtra("numberSeats",(20-pelicula.arreglo.size))
+                intent.putExtra("numberSeats",(20-pelicula.arreglo.size).toString())
                 context!!.startActivity(intent)
             }
 
